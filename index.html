@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- fontawesome//////////////////////////////////////////// -->
+   <script src="https://kit.fontawesome.com/58a9a0347e.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/569f85a564.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <!-- fontawesome//////////////////////////////////////////// -->
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+    integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+  <script>
+    SmoothScroll({
+      // Время скролла 400 = 0.4 секунды
+      animationTime: 800,
+      // Размер шага в пикселях 
+      stepSize: 40,
+
+      // Дополнительные настройки:
+
+      // Ускорение 
+      accelerationDelta: 5,
+      // Максимальное ускорение
+      accelerationMax: 5,
+
+      // Поддержка клавиатуры
+      keyboardSupport: true,
+      // Шаг скролла стрелками на клавиатуре в пикселях
+      arrowScroll: 50,
+
+      // Pulse (less tweakable)
+      // ratio of "tail" to "acceleration"
+      pulseAlgorithm: true,
+      pulseScale: 4,
+      pulseNormalize: 1,
+
+      // Поддержка тачпада
+      touchpadSupport: true,
+    })
+  </script>
+
+</head>
+
+<body>
+
+  <!--! МЕНЮ СБОКУ OFF CANVAS -->
+  <!--!
+  <div class="menu">
+    <div class="up">
+      <div class="upper"><a href="">
+          <h2><a href="#about">О нас</a></h2>
+        </a>
+        <p>Чувтво открытия</p>
+      </div>
+      <div class="upper"><a href="">
+          <h2><a href="#anim">История</a></h2>
+        </a>
+        <p>Чувтво доверия</p>
+      </div>
+      <div class="upper"><a href="">
+          <h2><a href="#missia">Миссия</a></h2>
+        </a>
+        <p>Чувтво свободы</p>
+      </div>
+    </div>
+    <div class="down">
+      <div class="doom"><a href="">
+          <h2><a href="#objects">Объекты</a></h2>
+        </a>
+        <p>Чувтво прекрасного</p>
+      </div>
+      <div class="doom"><a href="">
+          <h2>Квартиры</h2>
+        </a>
+        <p>Чувтво вкуса</p>
+      </div>
+      <div class="doom"><a href="">
+          <h2><a href="#foot">Контакты</a></h2>
+        </a>
+        <p>Чувтво прикосновений</p>
+      </div>
+    </div>
+  </div>
+    -->
+
+  <header class="header" id="header">
+    <!--! <nav class="nav">
+      <a class="nav__link logo" href="#"><img src="./img/nav__logo.svg" alt=""></a>
+      <a class="nav__link none" href="#about"></a>
+      <a class="nav__link none" href="#about"></a>
+      <a class="nav__link menu-btn" href="#">Меню</a>
+      <div class="two_lines_wrap menu-btn">
+        <div class="two_lines"></div>
+        <div class="two_lines second"></div>
+      </div>
+      <a class="nav__link none" href="#about">О нас</a>
+      <a class="nav__link none" href="#anim">Наша история</a>
+      <a class="nav__link none" href="#missia">Миссия</a>
+      <a class="nav__link none" href="#objects">Объекты</a>
+      <a class="nav__link none" href="#contact">Контакты</a>
+      <a class="nav__link none number" href="#number">+996 770 108 106</a>
+    </nav> ! -->
+
+    <nav class="nav bor_bottom_2p_C">
+      <div class="nav_left">
+          <div class="nav_left_logo bor_right_2p_C"><img src="./img/nav__logo.svg" alt=""
+                  class="nav_logo__img"></div>
+          <div class="nav_left_links">
+              <a href="#about" class="nav_link__a none">
+                  <li class="nav__link">О НАС</li>
+              </a>
+              <a href="#anim" class="nav_link__a none">
+                  <li class="nav__link">НАША ИСТОРИЯ</li>
+              </a>
+              <a href="#missia" class="nav_link__a none">
+                  <li class="nav__link">НАША МИССИЯ</li>
+              </a>
+              <a href="#objects" class="nav_link__a none">
+                  <li class="nav__link">НАШИ ОБЪЕКТЫ</li>
+              </a>
+              <a href="#foot" class="nav_link__a none">
+                  <li class="nav__link">КОНТАКТЫ</li>
+              </a>
+          </div>
+      </div>
+      <div class="nav_right">
+          <!-- <div class="menu_burg menu-btn">
+            <div class="menu_lines"></div>
+            <div class="menu_lines m2"></div>
+            <div class="menu_lines m3"></div>
+          </div> -->
+
+          <div class="menu-block">
+            <a href="#" class="menu-btn">
+              <span></span>
+            </a>
+      
+            <nav class="menu">
+              <a href="#anim"><i class="fa-solid fa-landmark"></i></a>
+              <a href="#missia"><i class="fa-solid fa-pen-fancy"></i></a>
+              <a href="#objects"><i class="fa-solid fa-city"></i></a>
+              <a href="#foot"><i class="fa-solid fa-map-location-dot"></i></a>
+            </nav>
+      
+          </div>
+
+          <a href="tel:+996770108106" class="nav_right__a">
+              <button class="nav_right__button">
+                  <i class="fa-solid fa-phone"></i> +996 770 108 106
+              </button>
+          </a>
+      </div>
+  </nav>
+<!-- !!! circle menu !!! -->
+  
+
+  </header>
+
+  <!-- You can add more icons at //fontawesome.io/icons/#brand -->
+<ul class="sticky-social-bar">
+  <li class="social-icon">
+    <a href="https://www.facebook.com/smagroup.kg/"> 
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <span class="social-icon-text">Facebook</span>
+    </a>
+  </li>
+  <li class="social-icon">
+    <a href="#">
+      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      <span class="social-icon-text">WhatsApp</span>
+    </a>
+  </li>
+  <li class="social-icon">
+    <a href="https://www.youtube.com/watch?v=vDwgF2vS958">
+      <i class="fa fa-youtube" aria-hidden="true"></i>
+      <span class="social-icon-text">Youtube</span>
+    </a>
+  </li>
+  <li class="social-icon">
+    <a href="https://www.instagram.com/elite_stroy_city.osh/">
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <span class="social-icon-text">Instagram</span>
+    </a>
+  </li> 
+</ul>
+
+
+
+
+  <div class="page">
+    <section class="section" id="numb1">
+      <h1>Элит Строй Сити <br> начало новой жизни. </h1>
+    </section>
+
+    <section class="section  section--gray" id="about">
+      <div class="aboutUs">
+        <div class="inAbout" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="1000"
+          data-aos-anchor-placement="top-center">
+          <img src="./img/onas.jpg" alt="">
+        </div>
+        <div class="inAbout" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="1000"
+          data-aos-anchor-placement="top-center">
+          <p>О НАС <br> Мы создаем TALLER — бизнес-пространство принципиально новой формации. Это единая система,
+            которая делает
+            достижимым то, что раньше было недоступно нашим клиентам. Оно станет катализатором прорывных идей и
+            триггером для мышления out‑of‑box.
+            Павелецкий деловой район – центр притяжения крупного бизнеса. <br>
+            TALLER находится на пересечении транспортных потоков, в гуще городской жизни. <br> TALLER построен на
+            принципах ESG (Environmental, Social and Governance). Они являются не только актуальным стандартом в
+            международной деловой среде, но и осознанным шагом в формировании пространства будущего.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="anim">
+      <div class="anim-container">
+        <div class="boxes right" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h2>Надежный застройщик</h2>
+          <h3>За 13лет построено немало жилых домов и предприятий, создано немало рабочих мест и мы осуществили мечту
+            мноогих наших сограждан жить в доступном и качественнои доме.</h3>
+          <div class="line_wrap">
+            <div class="line"></div>
+            <div class="krug"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="boxes left" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h2>Объекты</h2>
+          <h3>Более 50 завершенных проектов</h3>
+          <h3>За время существования компании мы достигли выдающихся результатов и конечно же , подобного мы не смогли
+            бы достичь без Вас.</h3>
+          <div class="line_wrap">
+            <div class="line"></div>
+            <div class="krug"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="boxes right" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h2>Коротко в цифрах:</h2>
+          <h3>Более 1 500 000 кв.м построенных объектов</h3>
+          <h3>За эти годы мы построили более 1,5 миллионов квадратных метров , в построенных нами квартирах живут тысячи
+            семей.</h3>
+          <div class="line_wrap">
+            <div class="line"></div>
+            <div class="krug"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="boxes left" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h2>Работаем качественно.</h2>
+          <h3>"Элит-Строй-Сити" - это опытный коллектив профессионалов своего дела.</h3>
+          <h3>Тысячи довольных клиентов и жильцов. Репутация профессиональной компании, ориентированной на потребности
+            рынка.</h3>
+          <div class="line_wrap">
+            <div class="line"></div>
+            <div class="krug"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="boxes right" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h2> Сдача обьектов в срок</h2>
+          <h3> Более 1000 довольных клиентов</h3>
+          <h3>Мы строим качественные и доступные дома, предоставляем высокий сервис и всегда готовы дать обратную
+            связь,подобрав выгодные условия.</h3>
+          <div class="line_wrap">
+            <div class="line"></div>
+            <div class="krug"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section  section--gray" id="missia">
+      <h2 class="section__title">НАША МИССИЯ</h2>
+      <div class="mission_wrap">
+        <div class="mission" data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="top-center">
+          <h2>1</h2>
+          <div class="iconic"><img src="./img/soveshanie.jpg" alt=""></div>
+          <p>"Элит-Строй-Сити" - современная компания, осуществляющее деятельность в сфере недвижимого имущества в
+            соответствии с потребностями заказчика и его интересами.</p>
+        </div>
+        <div class="mission" data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+          <h2>2</h2>
+          <div class="iconic"><img src="./img/stroitel.jpg" alt=""></div>
+          <p>Компания "Элит-Строй-Сити" имеет более 12 лет опыта строительства и управления проектами любой сложности.</p>
+        </div>
+        <div class="mission" data-aos="fade-right" data-aos-duration="2500" data-aos-anchor-placement="top-center">
+          <h2>3</h2>
+          <div class="iconic"><img src="./img/kaska.jpg" alt=""></div>
+          <p>Компания "Элит-Строй-Сити" учла все потребности жителей города Ош и спроектировала жилые комплексы, сочетающие в себе доступные цены, выгодное расположение и высокое качество материалов.</p>
+        </div>
+        <div class="mission" data-aos="fade-right" data-aos-duration="3000" data-aos-anchor-placement="top-center">
+          <h2>4</h2>
+          <div class="iconic"><img src="./img/girl.jpg" alt=""></div>
+          <p>14 лет мы строим дома и социальные объекты.⠀Тысячи довольных клиентов и жильцов. Уникальное ценовое предложение с рассрочкой до 7 лет. </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section  section--gray" id="objects">
+      <h2 class="section__title">НАШИ ОБЪЕКТЫ</h2>
+      <div class="wrap_map">
+        <div class="maped map" data-aos="flip-left" data-aos-duration="3000">
+          <img src="./img/mapOsh1.svg" alt="">
+        </div>
+        <div class="maped" data-aos="flip-right" data-aos-duration="3000">
+          <h2>Расположение</h2>
+          <p>Городской деловой район – центр притяжения крупного бизнеса.
+            Наши объекты находится на пересечении транспортных потоков, в гуще городской жизни.</p>
+            <p class="ssylkaManas"><a href="">Выбери свою квартиру...</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section  section--gray" id="foot">
+      <h2 class="section__title" id="foo">НАШИ КООРДИНАТЫ</h2>
+      <div class="foot_wrap">
+        <div class="phone_map phone">
+          <div class="footer__phone">
+            <a href="">
+              <div id="footer__phone">
+                <div>
+                  <img class="footer__phone__fon" src="./img/www.instagram.com_elite_stroy_city.osh_2.png" alt="">
+                </div>
+              </div>
+              <img class="footer__phone__phone" src="./img/footer__phone.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="phone_map adress">
+          <ul>
+            <li>г.Ош ул.Моторная 2а</li>
+            <li>0 553 10-86-06</li>
+            <li>0 703 10-86-06</li>
+            <li>elit_s_s@mail.ru</li>
+          </ul>
+        </div>
+        <div class="phone_map map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1274.5727425687764!2d72.8047162504467!3d40.553474931471946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bda968c4fa891f%3A0x8ace3a1fa45bc5a4!2z0K3Qu9C40YIg0KHRgtGA0L7QuSDQodC40YLQuA!5e0!3m2!1sru!2skg!4v1672201044382!5m2!1sru!2skg"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
